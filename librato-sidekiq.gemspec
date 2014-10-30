@@ -1,7 +1,7 @@
 require './lib/librato-sidekiq/version'
 
 Gem::Specification.new do |s|
-  s.name = %q{librato-sidekiq}
+  s.name = %q{thibaudgg-librato-sidekiq}
   s.version = Librato::Sidekiq::VERSION
   s.license = "MIT"
 
@@ -15,7 +15,7 @@ Gem::Specification.new do |s|
      "Gemfile",
      "librato-sidekiq.gemspec",
   ]
-  s.homepage = %q{http://github.com/StatusPage/librato-sidekiq}
+  s.homepage = %q{http://github.com/thibaudgg/librato-sidekiq}
   s.rdoc_options = ["--charset=UTF-8"]
   s.require_paths = ["lib"]
   s.summary = %q{Sidekiq hooks to push stats into Librato}
